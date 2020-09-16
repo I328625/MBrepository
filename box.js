@@ -1,4 +1,3 @@
-Access-Control-Allow-Origin: *
 (function() { 
 	let template = document.createElement("template");
 	template.innerHTML = `
