@@ -9,7 +9,6 @@
 			border-style: solid;
 			display: block;
 		} 
-
 		body {
 		  background: #fff;
 		}
