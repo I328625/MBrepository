@@ -4,7 +4,7 @@
 	"name": "Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://github.com/I328625/MBrepository/blob/master/icon(1).png",
+	"icon": "https://i328625.github.io/MBrepository/icon%20(1).png",
 	"vendor": "Demo",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,30 +12,30 @@
 		{
 			"kind": "main",
 			"tag": "com-demo-gauge",
-			"url": "https://github.com/I328625/MBrepository/blob/master/box.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"url": "https://i328625.github.io/MBrepository/box.js",
+			"integrity": "sha256-xf1Sz6xBCm3JInlPfHlWNV6pVzFdEo+ORa4W5DoJUG8",
+			"ignoreIntegrity": false
 		},
 		{
 			"kind": "styling",
-			"tag": "com-demo-gauge-sps",
-			"url": "https://github.com/I328625/MBrepository/blob/master/box_sps.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"tag": "com-demo-box-sps",
+			"url": "https://i328625.github.io/MBrepository/box_sps.js",
+			"integrity": "sha256-lDNISYLRzX1VKgequ/UGykGRW8SaGAqGdccq2DqwkPE",
+			"ignoreIntegrity": false
 		},
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "https://github.com/I328625/MBrepository/blob/master/box_bps.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"url": "https://i328625.github.io/MBrepository/box_bps.js",
+			"integrity": "sha256-Qq2mDmkBi5CbUiEFT7i9ABdqFJWhixLQyRi7JzHqklA",
+			"ignoreIntegrity": false
 		}
 	],
 	"properties": {
 		"value": {
 			"type": "number",
 			"description": "Gauge value",
-			"default": "0"
+			"default": 0
 		},
 		"info": {
 			"type": "string",
@@ -90,6 +90,3 @@
 		}
 	}
 }
-
- 
-© 2020 GitHub, Inc.
