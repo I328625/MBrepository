@@ -9,6 +9,7 @@
 			border-style: solid;
 			display: block;
 		} 
+
 		body {
 		  background: #fff;
 		}
@@ -117,6 +118,7 @@
 			
 			this.render(this.$value, this.$info, this.$color);
 		}
-	}	
+	}
+	
 	customElements.define("com-demo-gauge", Box);
 })();
