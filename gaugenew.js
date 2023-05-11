@@ -8351,8 +8351,8 @@
         var options = {
           redFrom: 0,
           redTo: 100,
-          yellowFrom: ,
-          yellowTo: ,
+          yellowFrom: 0,
+          yellowTo: 10,
           minorTicks: 10,
         };
 
